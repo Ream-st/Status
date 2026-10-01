@@ -1,0 +1,59 @@
+# Ream.st Status: https://status.ream.st
+# Checked every 5 minutes by .github/workflows/status.yml, using GitHup:
+# https://github.com/StuxGroup/GitHup
+site:
+  name: Ream.st Status
+  description: Live status of Ream.st and the Multi.st stream viewers, checked every 5 minutes.
+  logo: https://global.media.ream.st/logo.png
+  favicon: https://global.media.ream.st/icon.png
+  accent: "#0044FF"
+  url: https://status.ream.st/
+  footer_links:
+    - label: Ream.st
+      url: https://ream.st/
+    - label: Report a problem
+      url: https://github.com/Ream-st/Status/issues/new
+
+legal:
+  operator: Ream.st
+  company: "Ream.st is a Stux.Group service, operated by Stux Group Ltd, a company registered in England and Wales (company no. 13160574), registered office 82a James Carter Road, Mildenhall, England, IP28 7DE."
+  contact: legal@ream.st
+  host: GitHub Pages
+  effective: 1 October 2026
+
+defaults:
+  timeout: 15
+  retries: 2
+  max_response_time: 3000
+
+# Monitors are grouped into sections on the page, each with a combined status.
+# Slugs come from the names, so moving a monitor between groups keeps its history.
+groups:
+  - name: Ream.st
+    description: The Ream.st website.
+    monitors:
+      - name: Ream.st
+        url: https://ream.st/
+
+  - name: Multi.st
+    description: Watch several streams at once, by Ream.st.
+    monitors:
+      - name: Multi.st
+        url: https://multi.st/
+        description: The Multi.st home page
+      - name: Multi.st Twitch
+        url: https://twitch.multi.st/
+        description: Several Twitch streams at once
+      - name: Multi.st YouTube
+        url: https://youtube.multi.st/
+        description: Several YouTube streams at once
+
+  - name: Shared
+    description: The media everything Ream.st runs relies on.
+    monitors:
+      - name: Ream.st Media CDN
+        url: https://global.media.ream.st/icon.png
+        description: Shared logos and images used across every Ream.st site
+
+incidents:
+  labels: [status]
