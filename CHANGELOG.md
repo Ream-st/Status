@@ -3,6 +3,12 @@
 All notable changes to Ream.st's status page (status.ream.st) are documented here. It
 follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## v1.0.1
+
+### Changed
+
+- `max_response_time` raised from 3 to 15 seconds, so a slow but working Ream.st is no longer shown as degraded
+
 ## v1.0.0
 
 ### Added

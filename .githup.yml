@@ -24,7 +24,8 @@ legal:
 defaults:
   timeout: 15
   retries: 2
-  max_response_time: 3000
+  # Ream.st's site can take several seconds to answer, so only flag it as degraded past 15 seconds.
+  max_response_time: 15000
 
 # Monitors are grouped into sections on the page, each with a combined status.
 # Slugs come from the names, so moving a monitor between groups keeps its history.
