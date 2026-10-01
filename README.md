@@ -18,7 +18,15 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 <!-- githup:start -->
 <!-- This table is written by GitHup (https://github.com/StuxGroup/GitHup); edits here are overwritten. -->
 
-*No data yet. The first check fills this in.*
+**No data yet** · [Live status page](https://status.ream.st/)
+
+| Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
+| ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
+| Ream.st | [Ream.st](https://ream.st/) | No data | n/a | n/a | n/a | n/a |
+| Multi.st | [Multi.st](https://multi.st/) | No data | n/a | n/a | n/a | n/a |
+| Multi.st | [Multi.st Twitch](https://twitch.multi.st/) | No data | n/a | n/a | n/a | n/a |
+| Multi.st | [Multi.st YouTube](https://youtube.multi.st/) | No data | n/a | n/a | n/a | n/a |
+| Shared | [Ream.st Media CDN](https://global.media.ream.st/icon.png) | No data | n/a | n/a | n/a | n/a |
 <!-- githup:end -->
 
 ## What's monitored
