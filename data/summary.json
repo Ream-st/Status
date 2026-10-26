@@ -1,7 +1,7 @@
 {
  "version": 1,
  "generator": "GitHup",
- "updated": 1792995351,
+ "updated": 1792995652,
  "name": "Ream.st Status",
  "status": "up",
  "monitors": [
@@ -11,8 +11,8 @@
    "url": "https://ream.st/",
    "status": "up",
    "code": 200,
-   "ms": 867,
-   "checked_at": 1792995349,
+   "ms": 2183,
+   "checked_at": 1792995649,
    "last_change": {
     "at": 1792859614,
     "from": "down",
@@ -20,23 +20,23 @@
    },
    "uptime": {
     "24h": 100.0,
-    "7d": 99.665,
-    "30d": 99.789,
-    "90d": 99.789,
-    "all": 99.789
+    "7d": 99.666,
+    "30d": 99.79,
+    "90d": 99.79,
+    "all": 99.79
    },
    "avg_ms": {
-    "24h": 909,
-    "7d": 1083,
-    "30d": 999,
-    "90d": 999,
-    "all": 999
+    "24h": 945,
+    "7d": 1086,
+    "30d": 1000,
+    "90d": 1000,
+    "all": 1000
    },
    "totals": {
-    "checks": 952,
-    "available": 950,
-    "ms_sum": 949210,
-    "ms_n": 950,
+    "checks": 953,
+    "available": 951,
+    "ms_sum": 951393,
+    "ms_n": 951,
     "first": 1790866562
    },
    "incident": null
@@ -47,8 +47,8 @@
    "url": "https://multi.st/",
    "status": "up",
    "code": 200,
-   "ms": 1115,
-   "checked_at": 1792995349,
+   "ms": 2184,
+   "checked_at": 1792995649,
    "last_change": {
     "at": 1792859614,
     "from": "down",
@@ -56,23 +56,23 @@
    },
    "uptime": {
     "24h": 100.0,
-    "7d": 99.665,
-    "30d": 99.894,
-    "90d": 99.894,
-    "all": 99.894
+    "7d": 99.666,
+    "30d": 99.895,
+    "90d": 99.895,
+    "all": 99.895
    },
    "avg_ms": {
-    "24h": 1143,
-    "7d": 1035,
-    "30d": 843,
-    "90d": 843,
-    "all": 843
+    "24h": 1172,
+    "7d": 1039,
+    "30d": 845,
+    "90d": 845,
+    "all": 845
    },
    "totals": {
-    "checks": 952,
-    "available": 951,
-    "ms_sum": 802122,
-    "ms_n": 951,
+    "checks": 953,
+    "available": 952,
+    "ms_sum": 804306,
+    "ms_n": 952,
     "first": 1790866562
    },
    "incident": null
@@ -83,8 +83,8 @@
    "url": "https://twitch.multi.st/",
    "status": "up",
    "code": 200,
-   "ms": 582,
-   "checked_at": 1792995349,
+   "ms": 2148,
+   "checked_at": 1792995649,
    "last_change": {
     "at": 1790866562,
     "from": null,
@@ -98,17 +98,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 1172,
-    "7d": 998,
-    "30d": 833,
-    "90d": 833,
-    "all": 833
+    "24h": 1193,
+    "7d": 1001,
+    "30d": 835,
+    "90d": 835,
+    "all": 835
    },
    "totals": {
-    "checks": 952,
-    "available": 952,
-    "ms_sum": 793442,
-    "ms_n": 952,
+    "checks": 953,
+    "available": 953,
+    "ms_sum": 795590,
+    "ms_n": 953,
     "first": 1790866562
    },
    "incident": null
@@ -119,8 +119,8 @@
    "url": "https://youtube.multi.st/",
    "status": "up",
    "code": 200,
-   "ms": 679,
-   "checked_at": 1792995349,
+   "ms": 2228,
+   "checked_at": 1792995649,
    "last_change": {
     "at": 1790866562,
     "from": null,
@@ -134,17 +134,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 1214,
-    "7d": 977,
-    "30d": 816,
-    "90d": 816,
-    "all": 816
+    "24h": 1243,
+    "7d": 981,
+    "30d": 817,
+    "90d": 817,
+    "all": 817
    },
    "totals": {
-    "checks": 952,
-    "available": 952,
-    "ms_sum": 776829,
-    "ms_n": 952,
+    "checks": 953,
+    "available": 953,
+    "ms_sum": 779057,
+    "ms_n": 953,
     "first": 1790866562
    },
    "incident": null
@@ -155,8 +155,8 @@
    "url": "https://global.media.ream.st/icon.png",
    "status": "up",
    "code": 200,
-   "ms": 123,
-   "checked_at": 1792995349,
+   "ms": 854,
+   "checked_at": 1792995649,
    "last_change": {
     "at": 1790866562,
     "from": null,
@@ -170,17 +170,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 458,
-    "7d": 488,
+    "24h": 470,
+    "7d": 489,
     "30d": 527,
     "90d": 527,
     "all": 527
    },
    "totals": {
-    "checks": 952,
-    "available": 952,
-    "ms_sum": 501365,
-    "ms_n": 952,
+    "checks": 953,
+    "available": 953,
+    "ms_sum": 502219,
+    "ms_n": 953,
     "first": 1790866562
    },
    "incident": null
