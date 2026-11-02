@@ -18,15 +18,15 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 <!-- githup:start -->
 <!-- This table is written by GitHup (https://github.com/StuxGroup/GitHup); edits here are overwritten. -->
 
-**Partial outage** · [Live status page](https://status.ream.st/)
+**All systems operational** · [Live status page](https://status.ream.st/)
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-| Ream.st | [Ream.st](https://ream.st/) | **Down** | 91.66% | 96.68% | 99.11% | 9588 ms |
-| Multi.st | [Multi.st](https://multi.st/) | **Down** | 94.44% | 96.68% | 99.20% | 9668 ms |
-| Multi.st | [Multi.st Twitch](https://twitch.multi.st/) | Up | 97.22% | 98.75% | 99.73% | 8846 ms |
-| Multi.st | [Multi.st YouTube](https://youtube.multi.st/) | Up | 100.00% | 99.17% | 99.82% | 8916 ms |
-| Shared | [Ream.st Media CDN](https://global.media.ream.st/icon.png) | Up | 100.00% | 100.00% | 100.00% | 452 ms |
+| Ream.st | [Ream.st](https://ream.st/) | Up | 92.85% | 96.56% | 99.10% | 8391 ms |
+| Multi.st | [Multi.st](https://multi.st/) | Up | 96.42% | 96.56% | 99.19% | 8524 ms |
+| Multi.st | [Multi.st Twitch](https://twitch.multi.st/) | Up | 100.00% | 98.71% | 99.73% | 7190 ms |
+| Multi.st | [Multi.st YouTube](https://youtube.multi.st/) | Up | 100.00% | 99.14% | 99.82% | 7258 ms |
+| Shared | [Ream.st Media CDN](https://global.media.ream.st/icon.png) | Up | 100.00% | 100.00% | 100.00% | 491 ms |
 <!-- githup:end -->
 
 ## What's monitored
