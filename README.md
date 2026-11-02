@@ -22,11 +22,11 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 
 | Group | Monitor | Status | Uptime (24 h) | Uptime (7 d) | Uptime (30 d) | Response time (24 h) |
 | ----- | ------- | ------ | ------------- | ------------ | ------------- | -------------------- |
-| Ream.st | [Ream.st](https://ream.st/) | Up | 92.85% | 96.56% | 99.10% | 8391 ms |
-| Multi.st | [Multi.st](https://multi.st/) | Up | 96.42% | 96.56% | 99.19% | 8524 ms |
-| Multi.st | [Multi.st Twitch](https://twitch.multi.st/) | Up | 100.00% | 98.71% | 99.73% | 7190 ms |
-| Multi.st | [Multi.st YouTube](https://youtube.multi.st/) | Up | 100.00% | 99.14% | 99.82% | 7258 ms |
-| Shared | [Ream.st Media CDN](https://global.media.ream.st/icon.png) | Up | 100.00% | 100.00% | 100.00% | 491 ms |
+| Ream.st | [Ream.st](https://ream.st/) | Up | 93.10% | 96.62% | 99.10% | 7099 ms |
+| Multi.st | [Multi.st](https://multi.st/) | Up | 96.55% | 96.62% | 99.19% | 7276 ms |
+| Multi.st | [Multi.st Twitch](https://twitch.multi.st/) | Up | 100.00% | 98.73% | 99.73% | 6044 ms |
+| Multi.st | [Multi.st YouTube](https://youtube.multi.st/) | Up | 100.00% | 99.15% | 99.82% | 6173 ms |
+| Shared | [Ream.st Media CDN](https://global.media.ream.st/icon.png) | Up | 100.00% | 100.00% | 100.00% | 486 ms |
 <!-- githup:end -->
 
 ## What's monitored
