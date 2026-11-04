@@ -1,9 +1,9 @@
 {
  "version": 1,
  "generator": "GitHup",
- "updated": 1793817943,
+ "updated": 1793818238,
  "name": "Ream.st Status",
- "status": "partial",
+ "status": "up",
  "monitors": [
   {
    "slug": "ream-st",
@@ -11,8 +11,8 @@
    "url": "https://ream.st/",
    "status": "up",
    "code": 200,
-   "ms": 657,
-   "checked_at": 1793817937,
+   "ms": 475,
+   "checked_at": 1793818237,
    "last_change": {
     "at": 1793658547,
     "from": "down",
@@ -20,23 +20,23 @@
    },
    "uptime": {
     "24h": 100.0,
-    "7d": 97.333,
-    "30d": 99.094,
+    "7d": 97.345,
+    "30d": 99.095,
     "90d": 99.206,
     "all": 99.206
    },
    "avg_ms": {
-    "24h": 752,
-    "7d": 3784,
-    "30d": 1596,
-    "90d": 1515,
-    "all": 1515
+    "24h": 741,
+    "7d": 3769,
+    "30d": 1595,
+    "90d": 1514,
+    "all": 1514
    },
    "totals": {
-    "checks": 1260,
-    "available": 1250,
-    "ms_sum": 1893134,
-    "ms_n": 1250,
+    "checks": 1261,
+    "available": 1251,
+    "ms_sum": 1893609,
+    "ms_n": 1251,
     "first": 1790866562
    },
    "incident": null
@@ -47,8 +47,8 @@
    "url": "https://multi.st/",
    "status": "up",
    "code": 200,
-   "ms": 640,
-   "checked_at": 1793817937,
+   "ms": 480,
+   "checked_at": 1793818237,
    "last_change": {
     "at": 1793658547,
     "from": "down",
@@ -56,23 +56,23 @@
    },
    "uptime": {
     "24h": 100.0,
-    "7d": 97.333,
-    "30d": 99.184,
-    "90d": 99.285,
-    "all": 99.285
+    "7d": 97.345,
+    "30d": 99.185,
+    "90d": 99.286,
+    "all": 99.286
    },
    "avg_ms": {
-    "24h": 824,
-    "7d": 4013,
-    "30d": 1558,
-    "90d": 1448,
-    "all": 1448
+    "24h": 813,
+    "7d": 3997,
+    "30d": 1557,
+    "90d": 1447,
+    "all": 1447
    },
    "totals": {
-    "checks": 1260,
-    "available": 1251,
-    "ms_sum": 1811335,
-    "ms_n": 1251,
+    "checks": 1261,
+    "available": 1252,
+    "ms_sum": 1811815,
+    "ms_n": 1252,
     "first": 1790866562
    },
    "incident": null
@@ -81,41 +81,37 @@
    "slug": "multi-st-twitch",
    "name": "Multi.st Twitch",
    "url": "https://twitch.multi.st/",
-   "status": "down",
-   "code": 429,
-   "ms": 76,
-   "checked_at": 1793817937,
+   "status": "up",
+   "code": 200,
+   "ms": 1071,
+   "checked_at": 1793818237,
    "last_change": {
-    "at": 1793817937,
-    "from": "up",
-    "to": "down"
+    "at": 1793818237,
+    "from": "down",
+    "to": "up"
    },
    "uptime": {
     "24h": 96.774,
-    "7d": 98.222,
-    "30d": 99.637,
+    "7d": 98.23,
+    "30d": 99.638,
     "90d": 99.682,
     "all": 99.682
    },
    "avg_ms": {
-    "24h": 1143,
-    "7d": 5089,
-    "30d": 1768,
+    "24h": 1086,
+    "7d": 5071,
+    "30d": 1767,
     "90d": 1633,
     "all": 1633
    },
    "totals": {
-    "checks": 1260,
-    "available": 1256,
-    "ms_sum": 2051270,
-    "ms_n": 1256,
+    "checks": 1261,
+    "available": 1257,
+    "ms_sum": 2052341,
+    "ms_n": 1257,
     "first": 1790866562
    },
-   "incident": {
-    "number": 25,
-    "url": "https://github.com/Ream-st/Status/issues/25",
-    "opened": 1793817937
-   }
+   "incident": null
   },
   {
    "slug": "multi-st-youtube",
@@ -123,8 +119,8 @@
    "url": "https://youtube.multi.st/",
    "status": "up",
    "code": 200,
-   "ms": 658,
-   "checked_at": 1793817937,
+   "ms": 796,
+   "checked_at": 1793818237,
    "last_change": {
     "at": 1793468182,
     "from": "down",
@@ -132,23 +128,23 @@
    },
    "uptime": {
     "24h": 100.0,
-    "7d": 99.111,
-    "30d": 99.818,
+    "7d": 99.115,
+    "30d": 99.819,
     "90d": 99.841,
     "all": 99.841
    },
    "avg_ms": {
-    "24h": 938,
-    "7d": 3877,
+    "24h": 931,
+    "7d": 3863,
     "30d": 1497,
-    "90d": 1395,
-    "all": 1395
+    "90d": 1394,
+    "all": 1394
    },
    "totals": {
-    "checks": 1260,
-    "available": 1258,
-    "ms_sum": 1754528,
-    "ms_n": 1258,
+    "checks": 1261,
+    "available": 1259,
+    "ms_sum": 1755324,
+    "ms_n": 1259,
     "first": 1790866562
    },
    "incident": null
@@ -159,8 +155,8 @@
    "url": "https://global.media.ream.st/icon.png",
    "status": "up",
    "code": 200,
-   "ms": 442,
-   "checked_at": 1793817937,
+   "ms": 109,
+   "checked_at": 1793818237,
    "last_change": {
     "at": 1790866562,
     "from": null,
@@ -174,17 +170,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 504,
-    "7d": 493,
+    "24h": 482,
+    "7d": 491,
     "30d": 531,
     "90d": 520,
     "all": 520
    },
    "totals": {
-    "checks": 1260,
-    "available": 1260,
-    "ms_sum": 655341,
-    "ms_n": 1260,
+    "checks": 1261,
+    "available": 1261,
+    "ms_sum": 655450,
+    "ms_n": 1261,
     "first": 1790866562
    },
    "incident": null
