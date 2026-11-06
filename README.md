@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://global.media.ream.st/logo.png" height="100" alt="Ream.st Logo">
+  <img src="icons/icon-512.png" height="100" alt="Ream.st Status icon">
 </p>
 
-# Status
+# Ream.st Status
 
 ### *Live status of Ream.st and the Multi.st stream viewers, powered by [GitHup](https://githup.stux.group).*
 

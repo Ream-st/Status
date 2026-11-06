@@ -20,6 +20,12 @@ if errorlevel 3 (
     exit /b 1
 )
 
+for /f "delims=" %%b in ('git rev-parse --abbrev-ref HEAD') do set "BRANCH=%%b"
+if /i "%BRANCH%"=="main" (
+    echo Releases are made on test, not main: git checkout test, then run this again. main only changes through a pull request from test.
+    exit /b 1
+)
+
 git add -A
 git diff --cached --quiet
 if errorlevel 1 (
@@ -36,4 +42,4 @@ if errorlevel 1 (
     echo Tag v%VERSION% already exists - skipping.
 )
 
-echo Push with: git push origin main v%VERSION%
+echo Push with: git push origin %BRANCH% v%VERSION%, then open a pull request into main ^(gh pr create --base main --head %BRANCH%^).

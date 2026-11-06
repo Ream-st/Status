@@ -23,6 +23,12 @@ elif [[ "$DATE" < "$TODAY" ]]; then
     echo "Warning: VERSION.md is dated $DATE, but today is $TODAY (UTC). Releasing today? Use $TODAY." >&2
 fi
 
+BRANCH="$(git rev-parse --abbrev-ref HEAD)"
+if [ "$BRANCH" = "main" ]; then
+    echo "Releases are made on test, not main: git checkout test, then run this again. main only changes through a pull request from test." >&2
+    exit 1
+fi
+
 git add -A
 if ! git diff --cached --quiet; then
     git commit -m "$(cat <<MSG
@@ -42,4 +48,4 @@ else
     echo "Tagged v${VERSION}."
 fi
 
-echo "Push with: git push origin main v${VERSION}"
+echo "Push with: git push origin ${BRANCH} v${VERSION}, then open a pull request into main (gh pr create --base main --head ${BRANCH})."

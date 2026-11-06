@@ -27,6 +27,24 @@ You need Python 3.11+ and nothing else.
   Keep it accurate.
 - **Don't edit `data/` by hand.** It belongs to GitHup and the workflow.
 
+## Branches
+
+- Work goes onto `test` (or a feature branch off it), never straight onto `main`. (GitHup's own data and README
+  commits still go to `main` by themselves.)
+- Changes reach `main` only through a pull request from `test` into `main`, which Leo reviews and merges. Merge it
+  with a merge commit, so the release tags made on `test` stay in `main`'s history.
+- The page is only rebuilt from `main`, so a release goes live when its pull request is merged.
+
+## Icons
+
+The page's logo and favicon set in `icons/` are its own badge icon: the Ream.st mark on a round avatar with a
+heartbeat badge. To rebuild them (needs Pillow), from the repo root, with the Website repo beside this one:
+
+```sh
+python -I scripts/badge-icons.py ream-st ../Website/public/assets/icon.png <temp dir> --size=512
+python -I scripts/favicon-set.py <temp dir>/ream-st-status.png icons
+```
+
 ## Versioning
 
 This project uses [Date Versioning](https://datevers.ing). To release:
@@ -34,4 +52,5 @@ This project uses [Date Versioning](https://datevers.ing). To release:
 1. Add a `## vYY.MM.DD` entry at the top of `CHANGELOG.md`, with its sections in this order: Added, Changed, Fixed, Removed, Security, Deprecated.
 2. Set `VERSION.md` to the same bare version (no `v`): today's **UTC** date as `YY.MM.DD`, or `YY.MM.DD-1`, `-2`… for later releases the same UTC day. Never a future date. Use UTC, not local time: just after midnight in the UK it is still the previous day in UTC.
 3. Run `bash tests/version.sh`.
-4. Run `./commit.sh` (or `commit.bat` on Windows). It checks the version, commits and tags `vYY.MM.DD`, and never pushes.
+4. Run `./commit.sh` (or `commit.bat` on Windows). It checks the version, commits and tags `vYY.MM.DD`, and never pushes. It refuses to run on `main`.
+   Then push with `git push origin test --tags` and open a pull request from `test` into `main`.

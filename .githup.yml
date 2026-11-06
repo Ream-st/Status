@@ -4,8 +4,11 @@
 site:
   name: Ream.st Status
   description: Live status of Ream.st and the Multi.st stream viewers, checked every 5 minutes.
-  logo: https://global.media.ream.st/logo.png
-  favicon: https://global.media.ream.st/icon.png
+  # Its own badge icon (the Ream.st mark with a heartbeat badge), built by scripts/badge-icons.py and
+  # scripts/favicon-set.py into icons/, which GitHup publishes at the root of the page.
+  logo: https://status.ream.st/icon-512.png
+  favicon: https://status.ream.st/icon-512.png
+  icons: icons
   accent: "#0044FF"
   url: https://status.ream.st/
   footer_links:

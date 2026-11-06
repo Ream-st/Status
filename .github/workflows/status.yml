@@ -12,6 +12,7 @@ on:
     branches: [main]
     paths:
       - .githup.yml
+      - icons/**
       - .github/workflows/status.yml
 
 permissions:
