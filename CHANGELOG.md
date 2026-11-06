@@ -5,6 +5,18 @@ follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
 
+## v26.11.06
+
+### Added
+
+- `scripts/badge-icons.py` (copied from StuxGroup/Services, set to Ream.st's colours) and `scripts/favicon-set.py`, which build the page's badge icon and its favicon set in `icons/`
+
+### Changed
+
+- The page's logo and favicon are its own **Ream.st Status** badge icon (the Ream.st mark on a round avatar with a heartbeat badge) instead of the plain Ream.st logo and icon, with GitHup's favicon set (`favicon.ico`, the Apple touch icon and the manifest icons) built from it rather than GitHup's defaults. The README's header shows the same icon and is titled Ream.st Status
+- New branch flow: work and releases go onto `test` and reach `main` only through a pull request. `commit.sh`/`commit.bat` refuse to release on `main` and print the push and pull-request commands, and CONTRIBUTING describes the flow and how to rebuild the icons
+- The page is also rebuilt when `icons/` changes on `main`
+
 ## v26.10.23
 
 ### Added
