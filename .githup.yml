@@ -1,9 +1,10 @@
 # Ream.st Status: https://status.ream.st
-# Checked every 5 minutes by .github/workflows/status.yml, using GitHup:
+# Asks GitHub for a check every 5 minutes (best-effort; GitHub often runs it less often) - .github/workflows/status.yml
+# Built with GitHup:
 # https://github.com/StuxGroup/GitHup
 site:
   name: Ream.st Status
-  description: Live status of Ream.st and the Multi.st stream viewers, checked every 5 minutes.
+  description: Live status of Ream.st and the Multi.st stream viewers, checked regularly.
   # Its own badge icon (the Ream.st mark with a heartbeat badge), built by scripts/badge-icons.py and
   # scripts/favicon-set.py into icons/, which GitHup publishes at the root of the page.
   logo: https://status.ream.st/icon-512.png

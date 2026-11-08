@@ -1,9 +1,15 @@
 # Changelog
 
-All notable changes to Ream.st's status page (status.ream.st) are documented here. It
-follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+All notable changes to Ream.st's status page (status.ream.st) are documented here.
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
+
+## v26.11.08
+
+### Changed
+
+- The page's description and the README say the sites are "checked regularly" instead of "every 5 minutes". GitHub runs the 5-minute schedule best-effort, often much less often, and GitHup now shows the real measured check rhythm on the page. The schedule itself is unchanged
+- The CHANGELOG intro no longer also says the project follows Semantic Versioning
 
 ## v26.11.06
 

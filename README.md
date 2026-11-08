@@ -31,7 +31,9 @@ Updated by GitHup whenever the status page is rebuilt (hourly, and when a status
 
 ## What's monitored
 
-Every 5 minutes (when GitHub runs the schedule late, a run checks up to 4 times, 5 minutes apart, to fill the gap), GitHup checks each monitor in [`.githup.yml`](.githup.yml):
+GitHup checks each monitor in [`.githup.yml`](.githup.yml) regularly. The workflow asks GitHub for a run every 5 minutes, but GitHub runs
+schedules best-effort and often less often, so the status page shows the real check rhythm ("checked about every … (last 24 h)"). When a run
+is late, it checks up to 4 times, 5 minutes apart, to fill the gap:
 
 - **Ream.st:** the Ream.st website
 - **Multi.st:** Multi.st, Multi.st Twitch and Multi.st YouTube
@@ -46,7 +48,7 @@ To announce planned maintenance, open an Issue yourself with the `githup` and `i
 
 ## How it works
 
-- **`.github/workflows/status.yml`** runs a GitHup `check` every 5 minutes (with `fill-gaps`, up to 4 checks when the schedule is late) and commits the
+- **`.github/workflows/status.yml`** runs a GitHup `check` on a 5-minute schedule, which GitHub runs best-effort (with `fill-gaps`, up to 4 checks when a run is late) and commits the
   results to `data/` as `github-actions[bot]`. When a status changes, hourly, and on pushes, it
   builds the GitHup status page into `_site` (with `site-dir`), and deploys it with `actions/deploy-pages`.
 - **`legal:` in `.githup.yml`** makes GitHup generate the **Boring Legal Stuff** hub at `/legal/`
