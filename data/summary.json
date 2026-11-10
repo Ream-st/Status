@@ -1,7 +1,7 @@
 {
  "version": 1,
  "generator": "GitHup",
- "updated": 1794303700,
+ "updated": 1794304000,
  "name": "Ream.st Status",
  "status": "up",
  "monitors": [
@@ -11,8 +11,8 @@
    "url": "https://ream.st/",
    "status": "up",
    "code": 200,
-   "ms": 689,
-   "checked_at": 1794303699,
+   "ms": 513,
+   "checked_at": 1794304000,
    "last_change": {
     "at": 1793658547,
     "from": "down",
@@ -22,21 +22,21 @@
     "24h": 100.0,
     "7d": 100.0,
     "30d": 99.08,
-    "90d": 99.296,
-    "all": 99.296
+    "90d": 99.297,
+    "all": 99.297
    },
    "avg_ms": {
-    "24h": 1022,
-    "7d": 834,
-    "30d": 1578,
+    "24h": 999,
+    "7d": 832,
+    "30d": 1577,
     "90d": 1437,
     "all": 1437
    },
    "totals": {
-    "checks": 1422,
-    "available": 1412,
-    "ms_sum": 2029508,
-    "ms_n": 1412,
+    "checks": 1423,
+    "available": 1413,
+    "ms_sum": 2030021,
+    "ms_n": 1413,
     "first": 1790866562
    },
    "incident": null
@@ -47,8 +47,8 @@
    "url": "https://multi.st/",
    "status": "up",
    "code": 200,
-   "ms": 1228,
-   "checked_at": 1794303699,
+   "ms": 533,
+   "checked_at": 1794304000,
    "last_change": {
     "at": 1793658547,
     "from": "down",
@@ -62,17 +62,17 @@
     "all": 99.367
    },
    "avg_ms": {
-    "24h": 765,
-    "7d": 875,
-    "30d": 1586,
+    "24h": 755,
+    "7d": 874,
+    "30d": 1585,
     "90d": 1382,
     "all": 1382
    },
    "totals": {
-    "checks": 1422,
-    "available": 1413,
-    "ms_sum": 1953457,
-    "ms_n": 1413,
+    "checks": 1423,
+    "available": 1414,
+    "ms_sum": 1953990,
+    "ms_n": 1414,
     "first": 1790866562
    },
    "incident": null
@@ -83,8 +83,8 @@
    "url": "https://twitch.multi.st/",
    "status": "up",
    "code": 200,
-   "ms": 726,
-   "checked_at": 1794303699,
+   "ms": 736,
+   "checked_at": 1794304000,
    "last_change": {
     "at": 1793818237,
     "from": "down",
@@ -92,23 +92,23 @@
    },
    "uptime": {
     "24h": 100.0,
-    "7d": 99.509,
+    "7d": 99.512,
     "30d": 99.632,
     "90d": 99.718,
     "all": 99.718
    },
    "avg_ms": {
-    "24h": 1284,
-    "7d": 1115,
-    "30d": 1829,
-    "90d": 1572,
-    "all": 1572
+    "24h": 1260,
+    "7d": 1114,
+    "30d": 1828,
+    "90d": 1571,
+    "all": 1571
    },
    "totals": {
-    "checks": 1422,
-    "available": 1418,
-    "ms_sum": 2228686,
-    "ms_n": 1418,
+    "checks": 1423,
+    "available": 1419,
+    "ms_sum": 2229422,
+    "ms_n": 1419,
     "first": 1790866562
    },
    "incident": null
@@ -119,8 +119,8 @@
    "url": "https://youtube.multi.st/",
    "status": "up",
    "code": 200,
-   "ms": 929,
-   "checked_at": 1794303699,
+   "ms": 922,
+   "checked_at": 1794304000,
    "last_change": {
     "at": 1793468182,
     "from": "down",
@@ -134,17 +134,17 @@
     "all": 99.859
    },
    "avg_ms": {
-    "24h": 1275,
-    "7d": 1053,
-    "30d": 1558,
-    "90d": 1359,
-    "all": 1359
+    "24h": 1259,
+    "7d": 1052,
+    "30d": 1557,
+    "90d": 1358,
+    "all": 1358
    },
    "totals": {
-    "checks": 1422,
-    "available": 1420,
-    "ms_sum": 1929204,
-    "ms_n": 1420,
+    "checks": 1423,
+    "available": 1421,
+    "ms_sum": 1930126,
+    "ms_n": 1421,
     "first": 1790866562
    },
    "incident": null
@@ -155,8 +155,8 @@
    "url": "https://global.media.ream.st/icon.png",
    "status": "up",
    "code": 200,
-   "ms": 1113,
-   "checked_at": 1794303699,
+   "ms": 652,
+   "checked_at": 1794304000,
    "last_change": {
     "at": 1790866562,
     "from": null,
@@ -170,17 +170,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 567,
-    "7d": 499,
+    "24h": 571,
+    "7d": 500,
     "30d": 510,
     "90d": 518,
     "all": 518
    },
    "totals": {
-    "checks": 1422,
-    "available": 1422,
-    "ms_sum": 736613,
-    "ms_n": 1422,
+    "checks": 1423,
+    "available": 1423,
+    "ms_sum": 737265,
+    "ms_n": 1423,
     "first": 1790866562
    },
    "incident": null
@@ -188,7 +188,7 @@
  ],
  "cadence": {
   "window": 86400,
-  "checks": 21,
-  "every": 4204
+  "checks": 22,
+  "every": 4018
  }
 }
