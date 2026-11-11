@@ -1,7 +1,7 @@
 {
  "version": 1,
  "generator": "GitHup",
- "updated": 1794406155,
+ "updated": 1794406455,
  "name": "Ream.st Status",
  "status": "up",
  "monitors": [
@@ -11,8 +11,8 @@
    "url": "https://ream.st/",
    "status": "up",
    "code": 200,
-   "ms": 1318,
-   "checked_at": 1794406153,
+   "ms": 1306,
+   "checked_at": 1794406453,
    "last_change": {
     "at": 1793658547,
     "from": "down",
@@ -21,22 +21,22 @@
    "uptime": {
     "24h": 100.0,
     "7d": 100.0,
-    "30d": 99.073,
+    "30d": 99.074,
     "90d": 99.314,
     "all": 99.314
    },
    "avg_ms": {
-    "24h": 1016,
-    "7d": 853,
+    "24h": 1026,
+    "7d": 855,
     "30d": 1593,
     "90d": 1425,
     "all": 1425
    },
    "totals": {
-    "checks": 1458,
-    "available": 1448,
-    "ms_sum": 2062961,
-    "ms_n": 1448,
+    "checks": 1459,
+    "available": 1449,
+    "ms_sum": 2064267,
+    "ms_n": 1449,
     "first": 1790866562
    },
    "incident": null
@@ -47,8 +47,8 @@
    "url": "https://multi.st/",
    "status": "up",
    "code": 200,
-   "ms": 1279,
-   "checked_at": 1794406153,
+   "ms": 1011,
+   "checked_at": 1794406453,
    "last_change": {
     "at": 1793658547,
     "from": "down",
@@ -57,22 +57,22 @@
    "uptime": {
     "24h": 100.0,
     "7d": 100.0,
-    "30d": 99.165,
-    "90d": 99.382,
-    "all": 99.382
+    "30d": 99.166,
+    "90d": 99.383,
+    "all": 99.383
    },
    "avg_ms": {
-    "24h": 789,
+    "24h": 796,
     "7d": 855,
     "30d": 1595,
     "90d": 1367,
     "all": 1367
    },
    "totals": {
-    "checks": 1458,
-    "available": 1449,
-    "ms_sum": 1980991,
-    "ms_n": 1449,
+    "checks": 1459,
+    "available": 1450,
+    "ms_sum": 1982002,
+    "ms_n": 1450,
     "first": 1790866562
    },
    "incident": null
@@ -83,8 +83,8 @@
    "url": "https://twitch.multi.st/",
    "status": "up",
    "code": 200,
-   "ms": 1797,
-   "checked_at": 1794406153,
+   "ms": 1376,
+   "checked_at": 1794406453,
    "last_change": {
     "at": 1793818237,
     "from": "down",
@@ -92,23 +92,23 @@
    },
    "uptime": {
     "24h": 100.0,
-    "7d": 99.509,
+    "7d": 99.512,
     "30d": 99.629,
     "90d": 99.725,
     "all": 99.725
    },
    "avg_ms": {
-    "24h": 1334,
-    "7d": 1125,
+    "24h": 1335,
+    "7d": 1127,
     "30d": 1855,
     "90d": 1563,
     "all": 1563
    },
    "totals": {
-    "checks": 1458,
-    "available": 1454,
-    "ms_sum": 2273142,
-    "ms_n": 1454,
+    "checks": 1459,
+    "available": 1455,
+    "ms_sum": 2274518,
+    "ms_n": 1455,
     "first": 1790866562
    },
    "incident": null
@@ -119,8 +119,8 @@
    "url": "https://youtube.multi.st/",
    "status": "up",
    "code": 200,
-   "ms": 1255,
-   "checked_at": 1794406153,
+   "ms": 1717,
+   "checked_at": 1794406453,
    "last_change": {
     "at": 1794377830,
     "from": "degraded",
@@ -134,17 +134,17 @@
     "all": 99.862
    },
    "avg_ms": {
-    "24h": 1349,
-    "7d": 1099,
+    "24h": 1361,
+    "7d": 1102,
     "30d": 1581,
     "90d": 1356,
     "all": 1356
    },
    "totals": {
-    "checks": 1458,
-    "available": 1456,
-    "ms_sum": 1974062,
-    "ms_n": 1456,
+    "checks": 1459,
+    "available": 1457,
+    "ms_sum": 1975779,
+    "ms_n": 1457,
     "first": 1790866562
    },
    "incident": null
@@ -155,8 +155,8 @@
    "url": "https://global.media.ream.st/icon.png",
    "status": "up",
    "code": 200,
-   "ms": 617,
-   "checked_at": 1794406153,
+   "ms": 240,
+   "checked_at": 1794406453,
    "last_change": {
     "at": 1790866562,
     "from": null,
@@ -170,17 +170,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 463,
-    "7d": 490,
+    "24h": 456,
+    "7d": 489,
     "30d": 496,
     "90d": 516,
     "all": 516
    },
    "totals": {
-    "checks": 1458,
-    "available": 1458,
-    "ms_sum": 752621,
-    "ms_n": 1458,
+    "checks": 1459,
+    "available": 1459,
+    "ms_sum": 752861,
+    "ms_n": 1459,
     "first": 1790866562
    },
    "incident": null
@@ -188,7 +188,7 @@
  ],
  "cadence": {
   "window": 86400,
-  "checks": 29,
-  "every": 2625
+  "checks": 30,
+  "every": 2545
  }
 }
