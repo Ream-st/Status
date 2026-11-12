@@ -1,7 +1,7 @@
 {
  "version": 1,
  "generator": "GitHup",
- "updated": 1794481919,
+ "updated": 1794501687,
  "name": "Ream.st Status",
  "status": "up",
  "monitors": [
@@ -11,8 +11,8 @@
    "url": "https://ream.st/",
    "status": "up",
    "code": 200,
-   "ms": 1342,
-   "checked_at": 1794481917,
+   "ms": 733,
+   "checked_at": 1794501686,
    "last_change": {
     "at": 1793658547,
     "from": "down",
@@ -21,22 +21,22 @@
    "uptime": {
     "24h": 100.0,
     "7d": 100.0,
-    "30d": 99.075,
-    "90d": 99.326,
-    "all": 99.326
+    "30d": 99.076,
+    "90d": 99.327,
+    "all": 99.327
    },
    "avg_ms": {
-    "24h": 832,
+    "24h": 822,
     "7d": 860,
-    "30d": 1582,
-    "90d": 1414,
-    "all": 1414
+    "30d": 1581,
+    "90d": 1413,
+    "all": 1413
    },
    "totals": {
-    "checks": 1485,
-    "available": 1475,
-    "ms_sum": 2084935,
-    "ms_n": 1475,
+    "checks": 1486,
+    "available": 1476,
+    "ms_sum": 2085668,
+    "ms_n": 1476,
     "first": 1790866562
    },
    "incident": null
@@ -47,8 +47,8 @@
    "url": "https://multi.st/",
    "status": "up",
    "code": 200,
-   "ms": 1303,
-   "checked_at": 1794481917,
+   "ms": 725,
+   "checked_at": 1794501686,
    "last_change": {
     "at": 1793658547,
     "from": "down",
@@ -58,21 +58,21 @@
     "24h": 100.0,
     "7d": 100.0,
     "30d": 99.168,
-    "90d": 99.393,
-    "all": 99.393
+    "90d": 99.394,
+    "all": 99.394
    },
    "avg_ms": {
-    "24h": 897,
+    "24h": 864,
     "7d": 866,
-    "30d": 1597,
+    "30d": 1596,
     "90d": 1358,
     "all": 1358
    },
    "totals": {
-    "checks": 1485,
-    "available": 1476,
-    "ms_sum": 2004841,
-    "ms_n": 1476,
+    "checks": 1486,
+    "available": 1477,
+    "ms_sum": 2005566,
+    "ms_n": 1477,
     "first": 1790866562
    },
    "incident": null
@@ -83,8 +83,8 @@
    "url": "https://twitch.multi.st/",
    "status": "up",
    "code": 200,
-   "ms": 881,
-   "checked_at": 1794481917,
+   "ms": 738,
+   "checked_at": 1794501686,
    "last_change": {
     "at": 1793818237,
     "from": "down",
@@ -98,17 +98,17 @@
     "all": 99.73
    },
    "avg_ms": {
-    "24h": 1003,
-    "7d": 1106,
-    "30d": 1859,
-    "90d": 1553,
-    "all": 1553
+    "24h": 953,
+    "7d": 1101,
+    "30d": 1858,
+    "90d": 1552,
+    "all": 1552
    },
    "totals": {
-    "checks": 1485,
-    "available": 1481,
-    "ms_sum": 2299428,
-    "ms_n": 1481,
+    "checks": 1486,
+    "available": 1482,
+    "ms_sum": 2300166,
+    "ms_n": 1482,
     "first": 1790866562
    },
    "incident": null
@@ -119,8 +119,8 @@
    "url": "https://youtube.multi.st/",
    "status": "up",
    "code": 200,
-   "ms": 1353,
-   "checked_at": 1794481917,
+   "ms": 978,
+   "checked_at": 1794501686,
    "last_change": {
     "at": 1794377830,
     "from": "degraded",
@@ -134,17 +134,17 @@
     "all": 99.865
    },
    "avg_ms": {
-    "24h": 980,
-    "7d": 1095,
-    "30d": 1586,
+    "24h": 954,
+    "7d": 1100,
+    "30d": 1585,
     "90d": 1349,
     "all": 1349
    },
    "totals": {
-    "checks": 1485,
-    "available": 1483,
-    "ms_sum": 2000234,
-    "ms_n": 1483,
+    "checks": 1486,
+    "available": 1484,
+    "ms_sum": 2001212,
+    "ms_n": 1484,
     "first": 1790866562
    },
    "incident": null
@@ -155,8 +155,8 @@
    "url": "https://global.media.ream.st/icon.png",
    "status": "up",
    "code": 200,
-   "ms": 762,
-   "checked_at": 1794481917,
+   "ms": 551,
+   "checked_at": 1794501686,
    "last_change": {
     "at": 1790866562,
     "from": null,
@@ -170,17 +170,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 403,
-    "7d": 481,
+    "24h": 427,
+    "7d": 477,
     "30d": 494,
     "90d": 514,
     "all": 514
    },
    "totals": {
-    "checks": 1485,
-    "available": 1485,
-    "ms_sum": 763299,
-    "ms_n": 1485,
+    "checks": 1486,
+    "available": 1486,
+    "ms_sum": 763850,
+    "ms_n": 1486,
     "first": 1790866562
    },
    "incident": null
@@ -188,7 +188,7 @@
  ],
  "cadence": {
   "window": 86400,
-  "checks": 28,
-  "every": 2806
+  "checks": 25,
+  "every": 3352
  }
 }
