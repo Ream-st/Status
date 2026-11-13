@@ -1,7 +1,7 @@
 {
  "version": 1,
  "generator": "GitHup",
- "updated": 1794565926,
+ "updated": 1794566226,
  "name": "Ream.st Status",
  "status": "up",
  "monitors": [
@@ -21,14 +21,14 @@
    "uptime": {
     "24h": 100.0,
     "7d": 100.0,
-    "30d": 99.162,
+    "30d": 99.161,
     "90d": 99.337,
     "all": 99.337
    },
    "avg_ms": {
     "24h": 664,
     "7d": 818,
-    "30d": 1575,
+    "30d": 1574,
     "90d": 1400,
     "all": 1400
    },
@@ -57,14 +57,14 @@
    "uptime": {
     "24h": 100.0,
     "7d": 100.0,
-    "30d": 99.162,
+    "30d": 99.161,
     "90d": 99.403,
     "all": 99.403
    },
    "avg_ms": {
     "24h": 745,
     "7d": 827,
-    "30d": 1600,
+    "30d": 1601,
     "90d": 1347,
     "all": 1347
    },
@@ -155,8 +155,8 @@
    "url": "https://global.media.ream.st/icon.png",
    "status": "up",
    "code": 200,
-   "ms": 626,
-   "checked_at": 1794565921,
+   "ms": 335,
+   "checked_at": 1794566221,
    "last_change": {
     "at": 1790866562,
     "from": null,
@@ -170,17 +170,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 442,
-    "7d": 467,
-    "30d": 492,
+    "24h": 438,
+    "7d": 466,
+    "30d": 491,
     "90d": 513,
     "all": 513
    },
    "totals": {
-    "checks": 1512,
-    "available": 1512,
-    "ms_sum": 775185,
-    "ms_n": 1512,
+    "checks": 1513,
+    "available": 1513,
+    "ms_sum": 775520,
+    "ms_n": 1513,
     "first": 1790866562
    },
    "incident": null
@@ -188,7 +188,7 @@
  ],
  "cadence": {
   "window": 86400,
-  "checks": 31,
-  "every": 2830
+  "checks": 32,
+  "every": 2749
  }
 }
