@@ -1,7 +1,7 @@
 {
  "version": 1,
  "generator": "GitHup",
- "updated": 1794565626,
+ "updated": 1794565926,
  "name": "Ream.st Status",
  "status": "up",
  "monitors": [
@@ -155,8 +155,8 @@
    "url": "https://global.media.ream.st/icon.png",
    "status": "up",
    "code": 200,
-   "ms": 436,
-   "checked_at": 1794565621,
+   "ms": 626,
+   "checked_at": 1794565921,
    "last_change": {
     "at": 1790866562,
     "from": null,
@@ -170,17 +170,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 435,
-    "7d": 466,
+    "24h": 442,
+    "7d": 467,
     "30d": 492,
     "90d": 513,
     "all": 513
    },
    "totals": {
-    "checks": 1511,
-    "available": 1511,
-    "ms_sum": 774559,
-    "ms_n": 1511,
+    "checks": 1512,
+    "available": 1512,
+    "ms_sum": 775185,
+    "ms_n": 1512,
     "first": 1790866562
    },
    "incident": null
@@ -188,7 +188,7 @@
  ],
  "cadence": {
   "window": 86400,
-  "checks": 30,
-  "every": 2917
+  "checks": 31,
+  "every": 2830
  }
 }
