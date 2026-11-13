@@ -4,6 +4,12 @@ All notable changes to Ream.st's status page (status.ream.st) are documented her
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
 
+## v26.11.13-1
+
+### Changed
+
+- The registered office on the Imprint now ends in "England, United Kingdom": 124 City Road, London, EC1V 2NX, England, United Kingdom
+
 ## v26.11.13
 
 ### Changed
