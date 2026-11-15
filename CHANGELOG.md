@@ -4,6 +4,12 @@ All notable changes to Ream.st's status page (status.ream.st) are documented her
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
 
+## v26.11.15
+
+### Added
+
+- `--lan` for `dev-server.sh`/`.bat`: it serves the dev status page on `0.0.0.0` instead of `127.0.0.1`, so a phone or another device on your network can open it, and prints the addresses to open (usually the `192.168.x.x` one). Without `--lan` nothing changes
+
 ## v26.11.13-1
 
 ### Changed
