@@ -13,8 +13,11 @@ status page software belong in [StuxGroup/GitHup](https://github.com/StuxGroup/G
 You need Python 3.11+ and nothing else.
 
 ```bash
-./dev-server.sh [--no-dev-mode] [port]   # or dev-server.bat on Windows
+./dev-server.sh [--no-dev-mode] [--lan] [port]   # or dev-server.bat on Windows
 ```
+
+`--lan` serves it on `0.0.0.0` instead of `127.0.0.1`, so a phone or another device on your network can open
+it, and prints the addresses to open (usually the `192.168.x.x` one).
 
 ## Project conventions
 
@@ -27,13 +30,12 @@ You need Python 3.11+ and nothing else.
   Keep it accurate.
 - **Don't edit `data/` by hand.** It belongs to GitHup and the workflow.
 
-## Branches
+## Branches and going live
 
-- Work goes onto `test` (or a feature branch off it), never straight onto `main`. (GitHup's own data and README
-  commits still go to `main` by themselves.)
-- Changes reach `main` only through a pull request from `test` into `main`, which Leo reviews and merges. Merge it
-  with a merge commit, so the release tags made on `test` stay in `main`'s history.
-- The page is only rebuilt from `main`, so a release goes live when its pull request is merged.
+- **`main` is what's live.** Nothing is pushed to it directly: it only changes when a pull request from `staging` is merged. The page is only rebuilt from `main`. GitHup's own data and README commits still go straight to `main` by themselves, so `main` runs ahead of `staging` and `test` with bot-only commits.
+- **`staging` is the last check before live.** It only changes when a pull request from `test` is merged.
+- **Work happens on `test`**, or on a feature branch off `test` that's merged back into it. Releases are made on `test` too; `commit.sh` / `commit.bat` refuse to run on `staging` or `main`.
+- **Going live:** push `test` with its tag, open a pull request into staging (`gh pr create --base staging --head test`), check staging once it's merged, then open one from staging into main (`gh pr create --base main --head staging`). Leo reviews and merges both, with merge commits, so the release tags made on `test` stay in `staging`'s and `main`'s history.
 
 ## Icons
 
@@ -52,5 +54,6 @@ This project uses [Date Versioning](https://datevers.ing). To release:
 1. Add a `## vYY.MM.DD` entry at the top of `CHANGELOG.md`, with its sections in this order: Added, Changed, Fixed, Removed, Security, Deprecated.
 2. Set `VERSION.md` to the same bare version (no `v`): today's **UTC** date as `YY.MM.DD`, or `YY.MM.DD-1`, `-2`… for later releases the same UTC day. Never a future date. Use UTC, not local time: just after midnight in the UK it is still the previous day in UTC.
 3. Run `bash tests/version.sh`.
-4. Run `./commit.sh` (or `commit.bat` on Windows). It checks the version, commits and tags `vYY.MM.DD`, and never pushes. It refuses to run on `main`.
-   Then push with `git push origin test --tags` and open a pull request from `test` into `main`.
+4. Run `./commit.sh` (or `commit.bat` on Windows). It checks the version, commits and tags `vYY.MM.DD`, and never pushes. It refuses to run on `main` or `staging`.
+   Then push with `git push origin test --tags` and open a pull request from `test` into `staging`;
+   once that's merged and checked, open one from `staging` into `main` (see [Branches and going live](#branches-and-going-live)).

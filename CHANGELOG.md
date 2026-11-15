@@ -4,6 +4,28 @@ All notable changes to Ream.st's status page (status.ream.st) are documented her
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
 
+## v26.11.15-2
+
+### Changed
+
+- The workflow's 5-minute schedule comment now says it asks GitHub for a check every 5 minutes on a best-effort basis, and that GitHub often runs it less often (the status page measures about one check every 45 minutes), instead of "may run it a little late". The schedule itself is unchanged
+
+## v26.11.15-1
+
+### Added
+
+- A `staging` branch between `test` and `main`: releases are made on `test`, then go `test` → `staging` → `main` through pull requests, and nothing is pushed to `staging` or `main` directly
+
+### Changed
+
+- `commit.sh`/`commit.bat` refuse to run on `staging` as well as `main`, and after tagging print the push command and both pull requests to open. CONTRIBUTING's Branches section is now "Branches and going live", and the README's Versioning section points to it
+
+## v26.11.15
+
+### Added
+
+- `--lan` for `dev-server.sh`/`.bat`: it serves the dev status page on `0.0.0.0` instead of `127.0.0.1`, so a phone or another device on your network can open it, and prints the addresses to open (usually the `192.168.x.x` one). Without `--lan` nothing changes
+
 ## v26.11.13-1
 
 ### Changed
