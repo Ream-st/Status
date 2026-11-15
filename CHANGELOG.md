@@ -4,6 +4,12 @@ All notable changes to Ream.st's status page (status.ream.st) are documented her
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
 
+## v26.11.15-2
+
+### Changed
+
+- The workflow's 5-minute schedule comment now says it asks GitHub for a check every 5 minutes on a best-effort basis, and that GitHub often runs it less often (the status page measures about one check every 45 minutes), instead of "may run it a little late". The schedule itself is unchanged
+
 ## v26.11.15-1
 
 ### Added
