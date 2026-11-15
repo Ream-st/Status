@@ -24,8 +24,8 @@ elif [[ "$DATE" < "$TODAY" ]]; then
 fi
 
 BRANCH="$(git rev-parse --abbrev-ref HEAD)"
-if [ "$BRANCH" = "main" ]; then
-    echo "Releases are made on test, not main: git checkout test, then run this again. main only changes through a pull request from test." >&2
+if [ "$BRANCH" = "main" ] || [ "$BRANCH" = "staging" ]; then
+    echo "You're on $BRANCH. Releases are made on test, then go test -> staging -> main through pull requests: git checkout test" >&2
     exit 1
 fi
 
@@ -48,4 +48,6 @@ else
     echo "Tagged v${VERSION}."
 fi
 
-echo "Push with: git push origin ${BRANCH} v${VERSION}, then open a pull request into main (gh pr create --base main --head ${BRANCH})."
+echo "Push with: git push origin ${BRANCH} v${VERSION}"
+echo "Then open a pull request into staging: gh pr create --base staging --head ${BRANCH}"
+echo "Once staging is checked, open one from staging into main: gh pr create --base main --head staging"

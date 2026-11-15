@@ -4,6 +4,16 @@ All notable changes to Ream.st's status page (status.ream.st) are documented her
 
 Since v26.10.23 this project uses [Date Versioning](https://datevers.ing) (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used Semantic Versioning.
 
+## v26.11.15-1
+
+### Added
+
+- A `staging` branch between `test` and `main`: releases are made on `test`, then go `test` → `staging` → `main` through pull requests, and nothing is pushed to `staging` or `main` directly
+
+### Changed
+
+- `commit.sh`/`commit.bat` refuse to run on `staging` as well as `main`, and after tagging print the push command and both pull requests to open. CONTRIBUTING's Branches section is now "Branches and going live", and the README's Versioning section points to it
+
 ## v26.11.15
 
 ### Added
