@@ -1,7 +1,7 @@
 {
  "version": 1,
  "generator": "GitHup",
- "updated": 1794787935,
+ "updated": 1794788236,
  "name": "Ream.st Status",
  "status": "up",
  "monitors": [
@@ -11,8 +11,8 @@
    "url": "https://ream.st/",
    "status": "up",
    "code": 200,
-   "ms": 699,
-   "checked_at": 1794787934,
+   "ms": 1406,
+   "checked_at": 1794788234,
    "last_change": {
     "at": 1793658547,
     "from": "down",
@@ -21,22 +21,22 @@
    "uptime": {
     "24h": 100.0,
     "7d": 100.0,
-    "30d": 99.136,
-    "90d": 99.37,
-    "all": 99.37
+    "30d": 99.137,
+    "90d": 99.371,
+    "all": 99.371
    },
    "avg_ms": {
-    "24h": 680,
-    "7d": 777,
+    "24h": 701,
+    "7d": 780,
     "30d": 1563,
     "90d": 1364,
     "all": 1364
    },
    "totals": {
-    "checks": 1589,
-    "available": 1579,
-    "ms_sum": 2154025,
-    "ms_n": 1579,
+    "checks": 1590,
+    "available": 1580,
+    "ms_sum": 2155431,
+    "ms_n": 1580,
     "first": 1790866562
    },
    "incident": null
@@ -47,8 +47,8 @@
    "url": "https://multi.st/",
    "status": "up",
    "code": 200,
-   "ms": 704,
-   "checked_at": 1794787934,
+   "ms": 1693,
+   "checked_at": 1794788234,
    "last_change": {
     "at": 1793658547,
     "from": "down",
@@ -57,22 +57,22 @@
    "uptime": {
     "24h": 100.0,
     "7d": 100.0,
-    "30d": 99.136,
+    "30d": 99.137,
     "90d": 99.433,
     "all": 99.433
    },
    "avg_ms": {
-    "24h": 744,
-    "7d": 786,
+    "24h": 771,
+    "7d": 791,
     "30d": 1615,
     "90d": 1319,
     "all": 1319
    },
    "totals": {
-    "checks": 1589,
-    "available": 1580,
-    "ms_sum": 2084143,
-    "ms_n": 1580,
+    "checks": 1590,
+    "available": 1581,
+    "ms_sum": 2085836,
+    "ms_n": 1581,
     "first": 1790866562
    },
    "incident": null
@@ -83,8 +83,8 @@
    "url": "https://twitch.multi.st/",
    "status": "up",
    "code": 200,
-   "ms": 732,
-   "checked_at": 1794787934,
+   "ms": 1455,
+   "checked_at": 1794788234,
    "last_change": {
     "at": 1793818237,
     "from": "down",
@@ -98,17 +98,17 @@
     "all": 99.748
    },
    "avg_ms": {
-    "24h": 895,
-    "7d": 1024,
+    "24h": 911,
+    "7d": 1026,
     "30d": 1907,
     "90d": 1511,
     "all": 1511
    },
    "totals": {
-    "checks": 1589,
-    "available": 1585,
-    "ms_sum": 2395694,
-    "ms_n": 1585,
+    "checks": 1590,
+    "available": 1586,
+    "ms_sum": 2397149,
+    "ms_n": 1586,
     "first": 1790866562
    },
    "incident": null
@@ -119,8 +119,8 @@
    "url": "https://youtube.multi.st/",
    "status": "up",
    "code": 200,
-   "ms": 696,
-   "checked_at": 1794787934,
+   "ms": 1456,
+   "checked_at": 1794788234,
    "last_change": {
     "at": 1794377830,
     "from": "degraded",
@@ -134,17 +134,17 @@
     "all": 99.874
    },
    "avg_ms": {
-    "24h": 848,
-    "7d": 1010,
-    "30d": 1621,
+    "24h": 865,
+    "7d": 1012,
+    "30d": 1620,
     "90d": 1319,
     "all": 1319
    },
    "totals": {
-    "checks": 1589,
-    "available": 1587,
-    "ms_sum": 2092774,
-    "ms_n": 1587,
+    "checks": 1590,
+    "available": 1588,
+    "ms_sum": 2094230,
+    "ms_n": 1588,
     "first": 1790866562
    },
    "incident": null
@@ -155,8 +155,8 @@
    "url": "https://global.media.ream.st/icon.png",
    "status": "up",
    "code": 200,
-   "ms": 56,
-   "checked_at": 1794787934,
+   "ms": 603,
+   "checked_at": 1794788234,
    "last_change": {
     "at": 1790866562,
     "from": null,
@@ -170,17 +170,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 455,
-    "7d": 446,
+    "24h": 459,
+    "7d": 447,
     "30d": 482,
     "90d": 509,
     "all": 509
    },
    "totals": {
-    "checks": 1593,
-    "available": 1593,
-    "ms_sum": 810345,
-    "ms_n": 1593,
+    "checks": 1594,
+    "available": 1594,
+    "ms_sum": 810948,
+    "ms_n": 1594,
     "first": 1790866562
    },
    "incident": null
@@ -188,7 +188,7 @@
  ],
  "cadence": {
   "window": 86400,
-  "checks": 35,
-  "every": 2461
+  "checks": 36,
+  "every": 2400
  }
 }
