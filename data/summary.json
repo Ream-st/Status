@@ -1,7 +1,7 @@
 {
  "version": 1,
  "generator": "GitHup",
- "updated": 1795402198,
+ "updated": 1795402498,
  "name": "Ream.st Status",
  "status": "up",
  "monitors": [
@@ -11,8 +11,8 @@
    "url": "https://ream.st/",
    "status": "up",
    "code": 200,
-   "ms": 445,
-   "checked_at": 1795402197,
+   "ms": 442,
+   "checked_at": 1795402497,
    "last_change": {
     "at": 1793658547,
     "from": "down",
@@ -21,22 +21,22 @@
    "uptime": {
     "24h": 100.0,
     "7d": 100.0,
-    "30d": 99.019,
+    "30d": 99.02,
     "90d": 99.435,
     "all": 99.435
    },
    "avg_ms": {
-    "24h": 618,
-    "7d": 800,
-    "30d": 1593,
+    "24h": 612,
+    "7d": 799,
+    "30d": 1591,
     "90d": 1306,
     "all": 1306
    },
    "totals": {
-    "checks": 1771,
-    "available": 1761,
-    "ms_sum": 2299935,
-    "ms_n": 1761,
+    "checks": 1772,
+    "available": 1762,
+    "ms_sum": 2300377,
+    "ms_n": 1762,
     "first": 1790866562
    },
    "incident": null
@@ -47,8 +47,8 @@
    "url": "https://multi.st/",
    "status": "up",
    "code": 200,
-   "ms": 428,
-   "checked_at": 1795402197,
+   "ms": 448,
+   "checked_at": 1795402497,
    "last_change": {
     "at": 1793658547,
     "from": "down",
@@ -57,22 +57,22 @@
    "uptime": {
     "24h": 100.0,
     "7d": 100.0,
-    "30d": 99.019,
-    "90d": 99.491,
-    "all": 99.491
+    "30d": 99.02,
+    "90d": 99.492,
+    "all": 99.492
    },
    "avg_ms": {
-    "24h": 640,
+    "24h": 634,
     "7d": 946,
-    "30d": 1722,
-    "90d": 1281,
-    "all": 1281
+    "30d": 1721,
+    "90d": 1280,
+    "all": 1280
    },
    "totals": {
-    "checks": 1771,
-    "available": 1762,
-    "ms_sum": 2256663,
-    "ms_n": 1762,
+    "checks": 1772,
+    "available": 1763,
+    "ms_sum": 2257111,
+    "ms_n": 1763,
     "first": 1790866562
    },
    "incident": null
@@ -83,8 +83,8 @@
    "url": "https://twitch.multi.st/",
    "status": "up",
    "code": 200,
-   "ms": 484,
-   "checked_at": 1795402197,
+   "ms": 511,
+   "checked_at": 1795402497,
    "last_change": {
     "at": 1793818237,
     "from": "down",
@@ -98,17 +98,17 @@
     "all": 99.774
    },
    "avg_ms": {
-    "24h": 802,
-    "7d": 1071,
-    "30d": 2096,
+    "24h": 792,
+    "7d": 1070,
+    "30d": 2094,
     "90d": 1466,
     "all": 1466
    },
    "totals": {
-    "checks": 1771,
-    "available": 1767,
-    "ms_sum": 2590631,
-    "ms_n": 1767,
+    "checks": 1772,
+    "available": 1768,
+    "ms_sum": 2591142,
+    "ms_n": 1768,
     "first": 1790866562
    },
    "incident": null
@@ -119,8 +119,8 @@
    "url": "https://youtube.multi.st/",
    "status": "up",
    "code": 200,
-   "ms": 510,
-   "checked_at": 1795402197,
+   "ms": 517,
+   "checked_at": 1795402497,
    "last_change": {
     "at": 1794377830,
     "from": "degraded",
@@ -134,17 +134,17 @@
     "all": 99.887
    },
    "avg_ms": {
-    "24h": 788,
-    "7d": 963,
-    "30d": 1744,
-    "90d": 1283,
-    "all": 1283
+    "24h": 778,
+    "7d": 962,
+    "30d": 1743,
+    "90d": 1282,
+    "all": 1282
    },
    "totals": {
-    "checks": 1771,
-    "available": 1769,
-    "ms_sum": 2268921,
-    "ms_n": 1769,
+    "checks": 1772,
+    "available": 1770,
+    "ms_sum": 2269438,
+    "ms_n": 1770,
     "first": 1790866562
    },
    "incident": null
@@ -155,8 +155,8 @@
    "url": "https://global.media.ream.st/icon.png",
    "status": "up",
    "code": 200,
-   "ms": 388,
-   "checked_at": 1795402197,
+   "ms": 276,
+   "checked_at": 1795402497,
    "last_change": {
     "at": 1790866562,
     "from": null,
@@ -170,17 +170,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 416,
-    "7d": 430,
+    "24h": 411,
+    "7d": 428,
     "30d": 472,
     "90d": 501,
     "all": 501
    },
    "totals": {
-    "checks": 1775,
-    "available": 1775,
-    "ms_sum": 888976,
-    "ms_n": 1775,
+    "checks": 1776,
+    "available": 1776,
+    "ms_sum": 889252,
+    "ms_n": 1776,
     "first": 1790866562
    },
    "incident": null
@@ -188,7 +188,7 @@
  ],
  "cadence": {
   "window": 86400,
-  "checks": 27,
-  "every": 2799
+  "checks": 28,
+  "every": 2706
  }
 }
