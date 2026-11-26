@@ -1,7 +1,7 @@
 {
  "version": 1,
  "generator": "GitHup",
- "updated": 1795638099,
+ "updated": 1795652145,
  "name": "Ream.st Status",
  "status": "partial",
  "monitors": [
@@ -9,71 +9,67 @@
    "slug": "ream-st",
    "name": "Ream.st",
    "url": "https://ream.st/",
-   "status": "down",
-   "code": 404,
-   "ms": 249,
-   "checked_at": 1795638095,
+   "status": "up",
+   "code": 200,
+   "ms": 506,
+   "checked_at": 1795652096,
    "last_change": {
-    "at": 1795637495,
-    "from": "up",
-    "to": "down"
+    "at": 1795652096,
+    "from": "down",
+    "to": "up"
    },
    "uptime": {
-    "24h": 87.5,
-    "7d": 98.235,
-    "30d": 98.713,
+    "24h": 85.714,
+    "7d": 98.159,
+    "30d": 98.702,
     "90d": 99.287,
     "all": 99.287
    },
    "avg_ms": {
-    "24h": 1066,
-    "7d": 845,
-    "30d": 1622,
+    "24h": 1151,
+    "7d": 853,
+    "30d": 1627,
     "90d": 1293,
     "all": 1293
    },
    "totals": {
-    "checks": 1824,
-    "available": 1811,
-    "ms_sum": 2342280,
-    "ms_n": 1811,
+    "checks": 1825,
+    "available": 1812,
+    "ms_sum": 2342786,
+    "ms_n": 1812,
     "first": 1790866562
    },
-   "incident": {
-    "number": 32,
-    "url": "https://github.com/Ream-st/Status/issues/32",
-    "opened": 1795637495
-   }
+   "incident": null
   },
   {
    "slug": "multi-st",
    "name": "Multi.st",
    "url": "https://multi.st/",
    "status": "down",
-   "code": 404,
-   "ms": 67,
-   "checked_at": 1795638095,
+   "code": 0,
+   "ms": 15049,
+   "checked_at": 1795652096,
    "last_change": {
     "at": 1795637495,
     "from": "up",
     "to": "down"
    },
    "uptime": {
-    "24h": 87.5,
-    "7d": 98.235,
-    "30d": 98.713,
-    "90d": 99.342,
-    "all": 99.342
+    "24h": 80.952,
+    "7d": 97.546,
+    "30d": 98.584,
+    "90d": 99.287,
+    "all": 99.287
    },
    "avg_ms": {
-    "24h": 1175,
-    "7d": 947,
-    "30d": 1744,
+    "24h": 1307,
+    "7d": 958,
+    "30d": 1746,
     "90d": 1270,
     "all": 1270
    },
    "totals": {
-    "checks": 1824,
+    "checks": 1825,
     "available": 1812,
     "ms_sum": 2302056,
     "ms_n": 1812,
@@ -89,81 +85,73 @@
    "slug": "multi-st-twitch",
    "name": "Multi.st Twitch",
    "url": "https://twitch.multi.st/",
-   "status": "down",
-   "code": 404,
-   "ms": 227,
-   "checked_at": 1795638095,
+   "status": "up",
+   "code": 200,
+   "ms": 1033,
+   "checked_at": 1795652096,
    "last_change": {
-    "at": 1795637495,
-    "from": "up",
-    "to": "down"
+    "at": 1795652096,
+    "from": "down",
+    "to": "up"
    },
    "uptime": {
-    "24h": 87.5,
-    "7d": 98.235,
-    "30d": 99.181,
+    "24h": 85.714,
+    "7d": 98.159,
+    "30d": 99.174,
     "90d": 99.616,
     "all": 99.616
    },
    "avg_ms": {
-    "24h": 1313,
-    "7d": 1119,
-    "30d": 2148,
-    "90d": 1455,
-    "all": 1455
+    "24h": 1398,
+    "7d": 1131,
+    "30d": 2155,
+    "90d": 1454,
+    "all": 1454
    },
    "totals": {
-    "checks": 1824,
-    "available": 1817,
-    "ms_sum": 2643095,
-    "ms_n": 1817,
+    "checks": 1825,
+    "available": 1818,
+    "ms_sum": 2644128,
+    "ms_n": 1818,
     "first": 1790866562
    },
-   "incident": {
-    "number": 34,
-    "url": "https://github.com/Ream-st/Status/issues/34",
-    "opened": 1795637495
-   }
+   "incident": null
   },
   {
    "slug": "multi-st-youtube",
    "name": "Multi.st YouTube",
    "url": "https://youtube.multi.st/",
-   "status": "down",
-   "code": 404,
-   "ms": 223,
-   "checked_at": 1795638095,
+   "status": "up",
+   "code": 200,
+   "ms": 726,
+   "checked_at": 1795652096,
    "last_change": {
-    "at": 1795637495,
-    "from": "up",
-    "to": "down"
+    "at": 1795652096,
+    "from": "down",
+    "to": "up"
    },
    "uptime": {
-    "24h": 87.5,
-    "7d": 98.235,
-    "30d": 99.415,
-    "90d": 99.725,
-    "all": 99.725
+    "24h": 85.714,
+    "7d": 98.159,
+    "30d": 99.41,
+    "90d": 99.726,
+    "all": 99.726
    },
    "avg_ms": {
-    "24h": 1115,
-    "7d": 947,
-    "30d": 1782,
-    "90d": 1274,
-    "all": 1274
+    "24h": 1158,
+    "7d": 954,
+    "30d": 1789,
+    "90d": 1273,
+    "all": 1273
    },
    "totals": {
-    "checks": 1824,
-    "available": 1819,
-    "ms_sum": 2316824,
-    "ms_n": 1819,
+    "checks": 1825,
+    "available": 1820,
+    "ms_sum": 2317550,
+    "ms_n": 1820,
     "first": 1790866562
    },
-   "incident": {
-    "number": 35,
-    "url": "https://github.com/Ream-st/Status/issues/35",
-    "opened": 1795637495
-   }
+   "incident": null
   },
   {
    "slug": "ream-st-media-cdn",
@@ -171,8 +159,8 @@
    "url": "https://global.media.ream.st/icon.png",
    "status": "up",
    "code": 200,
-   "ms": 570,
-   "checked_at": 1795638095,
+   "ms": 1016,
+   "checked_at": 1795652096,
    "last_change": {
     "at": 1790866562,
     "from": null,
@@ -186,17 +174,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 540,
+    "24h": 581,
     "7d": 442,
-    "30d": 471,
+    "30d": 472,
     "90d": 501,
     "all": 501
    },
    "totals": {
-    "checks": 1828,
-    "available": 1828,
-    "ms_sum": 914988,
-    "ms_n": 1828,
+    "checks": 1829,
+    "available": 1829,
+    "ms_sum": 916004,
+    "ms_n": 1829,
     "first": 1790866562
    },
    "incident": null
@@ -204,7 +192,7 @@
  ],
  "cadence": {
   "window": 86400,
-  "checks": 24,
-  "every": 3637
+  "checks": 21,
+  "every": 4072
  }
 }
