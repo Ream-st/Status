@@ -1,7 +1,7 @@
 {
  "version": 1,
  "generator": "GitHup",
- "updated": 1795868951,
+ "updated": 1795870455,
  "name": "Ream.st Status",
  "status": "up",
  "monitors": [
@@ -11,8 +11,8 @@
    "url": "https://ream.st/",
    "status": "up",
    "code": 200,
-   "ms": 701,
-   "checked_at": 1795868949,
+   "ms": 831,
+   "checked_at": 1795870454,
    "last_change": {
     "at": 1795652096,
     "from": "down",
@@ -20,23 +20,23 @@
    },
    "uptime": {
     "24h": 100.0,
-    "7d": 98.101,
-    "30d": 98.909,
-    "90d": 99.308,
-    "all": 99.308
+    "7d": 98.113,
+    "30d": 98.91,
+    "90d": 99.309,
+    "all": 99.309
    },
    "avg_ms": {
-    "24h": 927,
+    "24h": 989,
     "7d": 818,
-    "30d": 1604,
+    "30d": 1603,
     "90d": 1284,
     "all": 1284
    },
    "totals": {
-    "checks": 1881,
-    "available": 1868,
-    "ms_sum": 2398243,
-    "ms_n": 1868,
+    "checks": 1882,
+    "available": 1869,
+    "ms_sum": 2399074,
+    "ms_n": 1869,
     "first": 1790866562
    },
    "incident": null
@@ -47,8 +47,8 @@
    "url": "https://multi.st/",
    "status": "up",
    "code": 200,
-   "ms": 654,
-   "checked_at": 1795868949,
+   "ms": 816,
+   "checked_at": 1795870454,
    "last_change": {
     "at": 1795652396,
     "from": "down",
@@ -56,23 +56,23 @@
    },
    "uptime": {
     "24h": 100.0,
-    "7d": 97.468,
-    "30d": 98.787,
-    "90d": 99.308,
-    "all": 99.308
+    "7d": 97.484,
+    "30d": 98.789,
+    "90d": 99.309,
+    "all": 99.309
    },
    "avg_ms": {
-    "24h": 983,
-    "7d": 976,
-    "30d": 1739,
+    "24h": 1053,
+    "7d": 975,
+    "30d": 1738,
     "90d": 1272,
     "all": 1272
    },
    "totals": {
-    "checks": 1881,
-    "available": 1868,
-    "ms_sum": 2375990,
-    "ms_n": 1868,
+    "checks": 1882,
+    "available": 1869,
+    "ms_sum": 2376806,
+    "ms_n": 1869,
     "first": 1790866562
    },
    "incident": null
@@ -83,8 +83,8 @@
    "url": "https://twitch.multi.st/",
    "status": "up",
    "code": 200,
-   "ms": 1100,
-   "checked_at": 1795868949,
+   "ms": 1426,
+   "checked_at": 1795870454,
    "last_change": {
     "at": 1795652096,
     "from": "down",
@@ -92,23 +92,23 @@
    },
    "uptime": {
     "24h": 100.0,
-    "7d": 98.101,
-    "30d": 99.151,
-    "90d": 99.627,
-    "all": 99.627
+    "7d": 98.113,
+    "30d": 99.152,
+    "90d": 99.628,
+    "all": 99.628
    },
    "avg_ms": {
-    "24h": 985,
-    "7d": 1012,
-    "30d": 2145,
+    "24h": 1046,
+    "7d": 1015,
+    "30d": 2144,
     "90d": 1446,
     "all": 1446
    },
    "totals": {
-    "checks": 1881,
-    "available": 1874,
-    "ms_sum": 2709300,
-    "ms_n": 1874,
+    "checks": 1882,
+    "available": 1875,
+    "ms_sum": 2710726,
+    "ms_n": 1875,
     "first": 1790866562
    },
    "incident": null
@@ -119,8 +119,8 @@
    "url": "https://youtube.multi.st/",
    "status": "up",
    "code": 200,
-   "ms": 990,
-   "checked_at": 1795868949,
+   "ms": 1120,
+   "checked_at": 1795870454,
    "last_change": {
     "at": 1795652996,
     "from": "down",
@@ -128,23 +128,23 @@
    },
    "uptime": {
     "24h": 100.0,
-    "7d": 97.468,
-    "30d": 99.272,
+    "7d": 97.484,
+    "30d": 99.273,
     "90d": 99.681,
     "all": 99.681
    },
    "avg_ms": {
-    "24h": 1332,
-    "7d": 987,
-    "30d": 1800,
+    "24h": 1442,
+    "7d": 988,
+    "30d": 1799,
     "90d": 1272,
     "all": 1272
    },
    "totals": {
-    "checks": 1881,
-    "available": 1875,
-    "ms_sum": 2384900,
-    "ms_n": 1875,
+    "checks": 1882,
+    "available": 1876,
+    "ms_sum": 2386020,
+    "ms_n": 1876,
     "first": 1790866562
    },
    "incident": null
@@ -155,8 +155,8 @@
    "url": "https://global.media.ream.st/icon.png",
    "status": "up",
    "code": 200,
-   "ms": 190,
-   "checked_at": 1795868949,
+   "ms": 759,
+   "checked_at": 1795870454,
    "last_change": {
     "at": 1790866562,
     "from": null,
@@ -170,17 +170,17 @@
     "all": 100.0
    },
    "avg_ms": {
-    "24h": 371,
-    "7d": 438,
+    "24h": 410,
+    "7d": 440,
     "30d": 464,
     "90d": 498,
     "all": 498
    },
    "totals": {
-    "checks": 1885,
-    "available": 1885,
-    "ms_sum": 939061,
-    "ms_n": 1885,
+    "checks": 1886,
+    "available": 1886,
+    "ms_sum": 939820,
+    "ms_n": 1886,
     "first": 1790866562
    },
    "incident": null
@@ -188,7 +188,7 @@
  ],
  "cadence": {
   "window": 86400,
-  "checks": 21,
-  "every": 4309
+  "checks": 18,
+  "every": 3332
  }
 }
